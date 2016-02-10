@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0-*",
+    "description": "WatsonSubtitle Console Application",
+    "authors": [ "Gabriel Culbertson" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "Newtonsoft.Json": "8.0.2"
+    },
+
+    "commands": {
+        "WatsonSubtitle": "WatsonSubtitle"
+    },
+
+    "frameworks": {
+      "dnx451": {
+        "dependencies": {
+        }
+      },
+        "dnxcore50": {
+          "dependencies": {
+            "System.Console": "4.0.0-beta-23019",
+            "System.Linq": "4.0.0-beta-23019",
+            "System.Threading": "4.0.10-beta-23019",
+            "Microsoft.CSharp": "4.0.0-beta-23019",
+            "System.IO.FileSystem": "4.0.0",
+            "System.Collections": "4.0.10",
+            "System.IO": "4.0.10"
+          }
+        }
+    }
+}
